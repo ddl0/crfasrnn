@@ -30,7 +30,7 @@ _MODEL_FILE = "TVG_CRFRNN_COCO_VOC.caffemodel"  # Contains the trained weights. 
 sys.path.insert(0, _CAFFE_ROOT + "python")
 import caffe
 
-_MAX_DIM = 500
+_MAX_DIM = 700
 
 
 def get_palette(num_cls):
